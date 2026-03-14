@@ -13,7 +13,7 @@ import { useRef, useState } from "react";
 
 const FloodMap = dynamic(() => import("@/components/FloodMap"), { ssr: false });
 
-const API_BASE =  "https://flood-risk-assesment.vercel.app"
+const API_BASE = ""  // empty = relative paths, works on localhost AND Vercel
 
 interface AnalysisResult {
   success: boolean;
